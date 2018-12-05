@@ -5,7 +5,7 @@ require "derail/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "derail"
+  s.name        = "derail-rails"
   s.version     = Derail::VERSION
   s.authors     = ["Ivan Novosad"]
   s.email       = ["ivan.novosad@gmail.com"]
