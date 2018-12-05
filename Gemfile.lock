@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    derail-rails (0.2.1)
+    derail-rails (0.3.0)
       rails (>= 4.0)
 
 GEM

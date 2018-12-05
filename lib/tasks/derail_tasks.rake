@@ -1,6 +1,6 @@
 namespace :derail do
   desc "Destroy rails project"
-  task :project => [:environment] do
+  task :rails => [:environment] do
     puts "\nDo you really want to destroy this project? [Y/N]"
 
     if STDIN.gets.chomp == "Y"

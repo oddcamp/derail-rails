@@ -1,12 +1,12 @@
 ![logo](https://images.unsplash.com/photo-1489928689380-3b404a485daa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80)
 [Photo by Jerry Kiesewetter on Unsplash](https://unsplash.com/photos/yPnT96Jx5D4)
-  
+
 # Derail
 Completely destroys a rails project: Databases, Chewy indices (if any) and deletes the project directory.
 
 ## Usage
 ```bash
-rake derail:project
+rake derail:rails
 ```
 
 ## Installation
@@ -14,7 +14,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 group :development do
-  gem 'derail-rails'
+  gem 'derail-rails', require: 'derail'
 end
 ```
 
