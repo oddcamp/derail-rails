@@ -14,7 +14,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 group :development do
-  gem 'derail'
+  gem 'derail-rails'
 end
 ```
 
@@ -25,7 +25,7 @@ $ bundle
 
 Or install it yourself as:
 ```bash
-$ gem install derail
+$ gem install derail-rails
 ```
 
 ## Contributing
